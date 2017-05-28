@@ -11,7 +11,7 @@ import numpy as np
 
 
 
-NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN = 203211
+NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN = 203210
 NUM_EXAMPLES_PER_EPOCH_FOR_EVAL = 39402
 
 min_fraction_of_examples_in_queue = 0.1
@@ -87,12 +87,12 @@ def inputs(eval_data, data_dir, batch_size):
 
   
     image_filename_queue = tf.train.string_input_producer(image_filenames, shuffle=False)
-    label_filename_queue = tf.train.string_input_producer(label_filenames)
+    label_filename_queue = tf.train.string_input_producer(label_filenames, shuffle=False)
 
   
     record = read_record(image_filename_queue, label_filename_queue)
-    #record.image = tf.image.resize_images(record.image, [48, 48])
-    #record.label = tf.multiply(record.label, 48.0 / 94.0)
+    # record.image = tf.image.resize_images(record.image, [48, 48])
+    # record.label = tf.multiply(record.label, 48.0 / 94.0)
     record.image = tf.image.per_image_standardization(record.image)
 
 
