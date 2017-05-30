@@ -8,4 +8,4 @@ Next I'll try to train it on extended Celeba dataset.
 ![demo-muct](https://github.com/htkseason/CNN-Facial-Points-Localization/blob/master/demo-muct.png)  
   
 ###Result on Celeba set :  
-![demo-celeba](https://github.com/htkseason/CNN-Facial-Points-Localization/blob/master/demo.png)  
+![demo-celeba](https://github.com/htkseason/CNN-Facial-Points-Localization/blob/master/demo-celeba.png)  
