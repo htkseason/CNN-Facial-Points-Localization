@@ -5,7 +5,7 @@ Next I'll try to train it on extended Celeba dataset.
 ---  
   
 ###Result on Muct test set :  
-[demo-muct](https://github.com/htkseason/CNN-Facial-Points-Localization/blob/master/demo-muct.png)  
+![demo-muct](https://github.com/htkseason/CNN-Facial-Points-Localization/blob/master/demo-muct.png)  
   
 ###Result on Celeba set :  
-[demo-celeba](https://github.com/htkseason/CNN-Facial-Points-Localization/blob/master/demo.png)  
+![demo-celeba](https://github.com/htkseason/CNN-Facial-Points-Localization/blob/master/demo.png)  
